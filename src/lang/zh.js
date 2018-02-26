@@ -1,8 +1,8 @@
 export default {
   route: {
-    dashboard: '首页',
+    dashboard: '人保查勘',
     introduction: '简述',
-    documentation: '文档',
+    documentation: '视频',
     permission: '权限测试页',
     icons: '图标',
     components: '组件',

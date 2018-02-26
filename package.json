@@ -9,7 +9,6 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build:prod": "cross-env NODE_ENV=production env_config=prod node build/build.js",
     "build:sit": "cross-env NODE_ENV=production env_config=sit node build/build.js",
-    "lint": "eslint --ext .js,.vue src",
     "test": "npm run lint"
   },
   "dependencies": {
@@ -30,6 +29,7 @@
     "screenfull": "3.3.2",
     "showdown": "1.8.5",
     "simplemde": "1.11.2",
+    "sip.js": "^0.9.2",
     "sortablejs": "1.7.0",
     "vue": "2.5.10",
     "vue-count-to": "1.0.13",
